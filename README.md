@@ -47,22 +47,22 @@ The repository is bundled with the Python py file.
 
 ## Revision History
 
-# segy_ebcdic_editor_2_0_2.py
-# (c) Kingsley Ezenwaka (kezenwaka@gmail.com)
+segy_ebcdic_editor_2_0_2.py
+(c) Kingsley Ezenwaka (kezenwaka@gmail.com)
 
-# v.2.0 - 2024.06.20
+v.2.0 - 2024.06.20
 
-# v.2.0.1 - 2024.06.26 (Edited by Alejandro Lemmo)
-# Modified to fixed wrong amount of padding in update_header() (line90).
+v.2.0.1 - 2024.06.26 (Edited by Alejandro Lemmo)
+- Modified to fixed wrong amount of padding in update_header() (line90).
 	
-# v.2.0.2 - 2024.07.04
-# Modified to include update water column SV if different from value in traces.
+v.2.0.2 - 2024.07.04
+- Modified to include update water column SV if different from value in traces.
 
-# v.2.0.3 - 2024.08.03 (Edited by Alejandro Lemmo & Efrain Dinis)
-# Modified to include: 
-#	1. Add C02 LINE for no KPs files. 
-#	2. Fix C11 SAMPLES/TRACE: Trace Samples  
-#	3. C12 DATA TRACES: Traces - Previous values inverted -
+v.2.0.3 - 2024.08.03 (Edited by Alejandro Lemmo & Efrain Dinis)
+- Modified to include: 
+	1. Add C02 LINE for no KPs files. 
+	2. Fix C11 SAMPLES/TRACE: Trace Samples  
+	3. C12 DATA TRACES: Traces - Previous values inverted -
 
-# v.3.0 - 2025.02.25
-# Implemented tktinter GUI wrapper.
+v.3.0 - 2025.02.25
+- Implemented tktinter GUI wrapper.
